@@ -1,0 +1,50 @@
+.list-overflow-container {
+  max-height: 545px;
+  /* border: 1px #DDDDDD solid; */
+  border-radius: 4px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.list-overflow-container ul {
+  margin: 0;
+}
+
+.list-overflow-container li {
+  /* border: 1px #DDDDDD solid; */
+  box-shadow: 0px 5px 10px 3px #888888;
+  border-radius: 5px;
+  margin: 2vw;
+  padding: 1vw;
+}
+
+.list-overflow-container li * {
+  cursor: pointer;
+}
+
+.list-overflow-container li a {
+  color: #2A878C;
+}
+
+.icons {
+  margin-top: 2vw;
+}
+
+.description {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.gameInfo {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+
+/* .list-overflow-container li:first-child {
+  border: 1px #DDDDDD solid;
+}
+
+.list-overflow-container li:last-child {
+  border: 1px #DDDDDD solid;
+} */

@@ -1,0 +1,12 @@
+*{
+    font-family: 'Abel', sans-serif;
+    font-size: 24px
+}
+.side-nav{
+    width: 30rem;
+    box-shadow: 0px 5px 10px 3px #888888;
+}
+
+.userSide{
+    background-color: rgba(53, 131, 143, 0.747);
+}
