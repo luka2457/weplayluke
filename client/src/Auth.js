@@ -9,7 +9,7 @@ const LOGOUT_SUCCESS= "/logout"
 let redirectUri;
 
 if (process.env.NODE_ENV === "production") {
-    redirectUri = "https://rocky-refuge-98833.herokuapp.com/callback"
+    redirectUri = "https://weplayapp.herokuapp.com/callback"
   } else {
       redirectUri = "http://localhost:3000/callback"
   }
