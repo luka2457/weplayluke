@@ -1,1 +1,3 @@
 # WePlay
+
+Fully functional front and backend application deployed on Heroku. [WePlay](https://weplayapp.herokuapp.com/ "WePlay ") is a platform for people to find, join or create pickup sports games. Auth0 authentication allows users to sign in with Facebook or Google and uses JSON web tokens to display user info. The WePlay application was built using the MERN stack, consisting of a Node/Express backend, a Mongo database and React frontend. Additionally, the application uses Google Maps to display location and utilizes Nodemailer NPM package to contact or share an event. 
