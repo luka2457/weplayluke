@@ -10,6 +10,7 @@ const gameSchema = new Schema({
   lng: { type: Number, required: true },
   playerNumber: Number,
   time: String,
+  city: String,
   description: String,
   authorEmail: String,
   author: String,

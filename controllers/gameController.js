@@ -1,5 +1,5 @@
 const db = require("../models");
-  console.log("gamecontroller.js hit");
+
 // Defining methods for the gamesController
 module.exports = {
   findAll: function(req, res) {

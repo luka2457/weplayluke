@@ -2,11 +2,89 @@
     font-family: 'Abel', sans-serif;
     font-size: 24px
 }
+
+.weplaylogo {
+    margin: 0 auto;
+    padding-top: 10px
+}
+
+.attendeesHeader {
+    padding-left: 10px
+}
 .side-nav{
     width: 30rem;
     box-shadow: 0px 5px 10px 3px #888888;
 }
 
-.userSide{
-    background-color: rgba(53, 131, 143, 0.747);
+.userSide, NavBar, NavItem, .weplaylogo{
+    background-color: #00838f !important;
+}
+
+.side-nav .userView .name, .email {
+    text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+    .row .col.s8 {
+        width: 100%;
+    }
+    .row .col.offset-s4 {
+        margin: auto;
+    }
+    .side-nav.fixed {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .row .col.offset-s4 {
+        margin-left: 41.3%;
+    }
+    .row .col.s8 {
+        width: 60.666667%;
+    }
+    nav .brand-logo {
+        display: none !important;
+    }
+    .navBarMainFullWidth {
+        line-height: 0px;
+    }
+}
+@media only screen and (min-width: 1027px) {
+    .row .col.offset-s4 {
+        margin-left: 38.3%;
+    }
+    .row .col.s8 {
+        width: 62.666667%;
+    }
+}
+@media only screen and (min-width: 1110px) {
+    .row .col.offset-s4 {
+        margin-left: 36.3%;
+    }
+    .row .col.s8 {
+        width: 63.666667%;
+    }
+}
+@media only screen and (min-width: 1169px) {
+    .row .col.offset-s4 {
+        margin-left: 35.3%;
+    }
+    .row .col.s8 {
+        width: 64.666667%;
+    }
+}
+@media only screen and (min-width: 1244px) {
+    .row .col.offset-s4 {
+        margin-left: 34.3%;
+    }
+    .row .col.s8 {
+        width: 66.666667%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .sideNavItem1 {
+        display: none !important;
+    }
 }
