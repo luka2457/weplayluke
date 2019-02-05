@@ -21,6 +21,9 @@
 .list-overflow-container li * {
   cursor: pointer;
 }
+.row .col.s3  {
+  cursor: pointer;
+}
 
 .list-overflow-container li a {
   color: #2A878C;
@@ -40,14 +43,6 @@
   margin-bottom: 3vw;
 }
 
-
-/* .list-overflow-container li:first-child {
-  border: 1px #DDDDDD solid;
-}
-
-.list-overflow-container li:last-child {
-  border: 1px #DDDDDD solid;
-} */
 
 nav {
   background-color: #2A878C
